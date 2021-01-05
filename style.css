@@ -1,0 +1,12 @@
+p#resultReceiver {
+	word-break: break-all;
+}
+
+div.checksMargin {
+	padding-left: 15px;
+}
+
+h1,
+h2 {
+	text-align: center;
+}

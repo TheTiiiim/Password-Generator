@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Password Generator</title>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
 	</head>
 
 	<body>
@@ -22,25 +23,27 @@
 					</div>
 				</div>
 
-				<div class="row">
-					<div class="form-check form-check-inline col-md-3 mr-0">
+				<div class="form-group row checksMargin">
+					<div class="form-check form-check-inline col-md-3  col-form-label mr-0">
 						<input class="form-check-input" type="checkbox" id="Lower" name="lower" value="true" checked>
 						<label class="form-check-label" for="Lower">Lower Case Characters</label>
 					</div>
-					<div class="form-check form-check-inline col-md-3 mr-0">
+					<div class="form-check form-check-inline col-md-3  col-form-label mr-0">
 						<input class="form-check-input" type="checkbox" id="Upper" name="upper" value="true">
 						<label class="form-check-label" for="Upper">Upper Case Characters</label>
 					</div>
-					<div class="form-check form-check-inline col-md-3 mr-0">
+					<div class="form-check form-check-inline col-md-3  col-form-label mr-0">
 						<input class="form-check-input" type="checkbox" id="Numbers" name="number" value="true">
 						<label class="form-check-label" for="Numbers">Numbers</label>
 					</div>
-					<div class="form-check form-check-inline col-md-3 mr-0">
+					<div class="form-check form-check-inline col-md-3  col-form-label mr-0">
 						<input class="form-check-input" type="checkbox" id="Special" name="special" value="true">
 						<label class="form-check-label" for="Special">Special Characters</label>
 					</div>
 				</div>
-				<button type="submit" class="btn btn-primary mx-auto">Submit</button>
+				<div class="form-group row justify-content-center">
+					<button type="submit" class="btn btn-primary mx-auto">Submit</button>
+				</div>
 			</form>
 
 			<h2>Result</h2>
