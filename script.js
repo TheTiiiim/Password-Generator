@@ -23,12 +23,12 @@ $(function () {
 		let isValid = true;
 
 		if (isNaN(optionsObj.length)) {
-			replaceResultReceiver("Password length input is Not a Number.");
+			replaceResultReceiver("Error: Password length input is Not a Number.");
 			isValid = false;
 		}
 
 		if (!(optionsObj.lower || optionsObj.upper || optionsObj.number || optionsObj.special)) {
-			replaceResultReceiver("Must include some characters.");
+			replaceResultReceiver("Error: Must include some characters.");
 			isValid = false;
 		}
 
